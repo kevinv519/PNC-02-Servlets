@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+:root {
+	--green: #4bc970;
+	--red: #dc3545;
+	--light-gray: #fafafa;
+	--white: #fff;
+}
+
+
+body {
+	background-color: var(--light-gray);
+	font-family: 'Roboto', sans-serif;
+}
+
+button {
+	padding: .5rem;
+	border: 1px solid transparent;
+}
+
+label {
+	margin: 0 0 8px;
+}
+
+.container {
+	display: flex;
+}   
+
+.content {
+	width: 70%;
+	display: inherit;
+	flex-direction: column;
+	padding: 2em;
+	background-color: var(--white);
+}
+
+.is-centered {
+	justify-content: center;
+}
+
+#login-form {
+	background: var(--white);
+	padding: 2em;
+	padding-bottom: 3em;
+	min-width: 20vw;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	box-shadow: 0 10px 40px -14px rgba(0,0,0,0.25);
+}
+
+.form-group {
+	margin-bottom: 1rem;
+	display: inherit;
+	flex-direction: inherit;
+}
+
+.form-control {
+	padding:.375em .75em;
+	border: 1px solid #ced4da;
+	font-size: 1rem;
+}
+
+.btn-green {
+	background-color: var(--green);
+	color: var(--white);
+	font-size: 1.3em;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.text-error {
+	color: var(--red)
+}
